@@ -15,6 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #7d2ae8;
+    background-image:url("girl.jpg")
 }
 .wrapper {
     position: relative;

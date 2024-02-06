@@ -1,10 +1,5 @@
-function flipCard() {
-    var card = document.querySelector('.card');
-    card.style.transform = 'rotateY(180deg)';
-  }
-  
-  function closeCard() {
-    var card = document.querySelector('.card');
-    card.style.transform = 'rotateY(0deg)';
-  }
-  
+const letterBtn = document.querySelector('.letter-image');
+
+letterBtn.addEventListener('click', () => {
+    location.href = "letter.html";
+});
